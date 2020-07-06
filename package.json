@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:ValeriiMakhniuk/korus-test-task3.git",
   "author": "Valerii Makhniuk <vmakhnyuk@yandex.ru>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
 }
