@@ -1,0 +1,8 @@
+{
+  "name": "korus-test-task3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ValeriiMakhniuk/korus-test-task3.git",
+  "author": "Valerii Makhniuk <vmakhnyuk@yandex.ru>",
+  "license": "MIT"
+}
