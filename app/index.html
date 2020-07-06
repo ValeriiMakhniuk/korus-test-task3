@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,21 +15,9 @@
     <main class="main">
       <div class="container">
         <h1>TODO App</h1>
-        <form action="/" class="todo-form">
-          <div class="form-group">
-            <input
-              type="text"
-              class="form-control"
-              id="task"
-              aria-describedby="task"
-              placeholder="Do homework"
-              required
-            />
-            <small id="emailHelp" class="form-text text-muted"
-              >What task you want to do</small
-            >
-          </div>
-        </form>
+        <button type="button" class="btn btn-primary add-task-btn">
+          Добавить задачу
+        </button>
         <section class="tasks">
           <h3>Task list</h3>
           <ul class="list-group task-list"></ul>
