@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <h1>TODO App</h1>
+        <form action="/" class="todo-form">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="task"
+              aria-describedby="task"
+              placeholder="Do homework"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >What task you want to do</small
+            >
+          </div>
+        </form>
+        <section class="tasks">
+          <h3>Task list</h3>
+          <ul class="list-group task-list"></ul>
+        </section>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
